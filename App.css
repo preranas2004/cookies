@@ -1,0 +1,64 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #e8f5fe;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #007bff;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+textarea {
+  width: 80%;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: inset 0px 0px 5px rgba(0,0,0,0.2);
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.toolbar {
+  display: flex;
+  gap: 10px;
+}
+
+.toolbar button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.toolbar button:hover {
+  background-color: #0056b3;
+}
+
+.toolbar select {
+  padding: 10px;
+}
